@@ -10,12 +10,11 @@
 <body>
     <div class="container">
         <div class="question-section">
-            <h2>I'm brief yet packed with insight,</h2>
-            <h2>Shark's Company, shining bright.</h2>
-            <h2>Breaking news, concise and tight,</h2>
-            <h2>In a snap, I bring it all to light.</h2>
-            <h2>Who am I?</h2>
-            <p>HINT: _ _ S _ _ _ T _ </p>
+            <h2></h2>
+            <h2>A shark said to the company ___. "1 Cr and I will buy your company"</h2>
+            <h2></h2>
+            <h2></h2>
+            <p></p>
         </div>
         <div class="answer-section">
             <input type="text" id="answerInput" placeholder="Type your answer here...">
@@ -28,7 +27,7 @@
     <script>
        function checkAnswer() {
     var userInput = document.getElementById('answerInput').value.toLowerCase();
-    var answers = ["Inshorts", "Inshorts ", "MMM"]; 
+    var answers = ["Hammer", "Hammer ", "MMM"]; 
     var found = false;
 
     for (var i = 0; i < answers.length; i++) {
@@ -37,6 +36,7 @@
             break;
         }
     }
+
 
     if (found) {
         document.getElementById('result').innerHTML = "Your Answer is Correct! HEAD TO CHEMICAL 211.";
